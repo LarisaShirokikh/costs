@@ -24,8 +24,8 @@ export const AuthPage = ({type}: { type: 'login' | 'registration' }) => {
                     <Link to={'/registration'}>Зарегистрироваться</Link>
                 </div>
                 : <div>
-                    <span className='question_text'>Уже есть аккаунт? Войти</span>
-                    <Link to={'/login'}>Зарегистрироваться</Link>
+                    <span className='question_text'>Уже есть аккаунт?</span>
+                    <Link to={'/login'}>Войти</Link>
                 </div>
             }
         </div>
